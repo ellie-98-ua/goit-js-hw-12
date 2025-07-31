@@ -70,9 +70,9 @@ export function hideLoader() {
 
 //кнопка Load more
 export function showLoadMoreButton() {
-  document.querySelector('.load-more').classList.remove('hidden');
+  document.querySelector('.load-more-button').classList.remove('hidden');
 }
 
 export function hideLoadMoreButton() {
-  document.querySelector('.load-more').classList.add('hidden');
+  document.querySelector('.load-more-button').classList.add('hidden');
 }
