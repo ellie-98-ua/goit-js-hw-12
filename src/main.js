@@ -15,7 +15,7 @@ import {
 
 const form = document.querySelector('.form');
 const gallery = document.querySelector('.gallery');
-const loadMoreBtn = document.querySelector('.load-more');
+const loadMoreBtn = document.querySelector('.load-more-button');
 
 let currentPage = 1;
 let currentQuery = '';
